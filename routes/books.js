@@ -8,6 +8,7 @@ let books = [
   { id: 4, title: "Dune", author: "Frank Herbert", genre: "Science Fiction", price: 15.99 },
   { id: 5, title: "Atomic Habits", author: "James Clear", genre: "Self-Help", price: 22.00 },
   { id: 6, title: "The Pragmatic Programmer", author: "Andrew Hunt, David Thomas", genre: "Programming", price: 35.99 },
+  { id: 7, title: "The Pragmatic One", author: "Andrew Hunt, David Thomas", genre: "Programming", price: 35.99 },
 ];
 
 // Get all books (optionally filtered)
