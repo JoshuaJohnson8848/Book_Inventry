@@ -11,7 +11,7 @@ let books = [
   { id: 7, title: "The Pragmatic One", author: "Andrew Hunt, David Thomas", genre: "Programming", price: 35.99 },
 ];
 
-// Get all books (optionally filtered)
+// Get all books (optionally filtered
 router.get('/', (req, res) => {
   let result = books;
   const { title, author, genre, sortBy } = req.query;
@@ -63,7 +63,7 @@ router.put('/:id', (req, res) => {
 // Delete a book
 router.delete('/:id', (req, res) => {
   books = books.filter(b => b.id !== parseInt(req.params.id));
-  res.json({ message: "Book deleted" });
+  res.json({ message: "Book deleted succesfully" });
 });
 
 module.exports = router;
