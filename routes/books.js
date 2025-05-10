@@ -4,6 +4,10 @@ const router = express.Router();
 let books = [
   { id: 1, title: "The Alchemist", author: "Paulo Coelho", genre: "Fiction", price: 12.99 },
   { id: 2, title: "Clean Code", author: "Robert C. Martin", genre: "Programming", price: 30.00 },
+  { id: 3, title: "Sapiens: A Brief History of Humankind", author: "Yuval Noah Harari", genre: "Non-Fiction", price: 18.50 },
+  { id: 4, title: "Dune", author: "Frank Herbert", genre: "Science Fiction", price: 15.99 },
+  { id: 5, title: "Atomic Habits", author: "James Clear", genre: "Self-Help", price: 22.00 },
+  { id: 6, title: "The Pragmatic Programmer", author: "Andrew Hunt, David Thomas", genre: "Programming", price: 35.99 },
 ];
 
 // Get all books (optionally filtered)
