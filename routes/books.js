@@ -63,7 +63,7 @@ router.put('/:id', (req, res) => {
 // Delete a book
 router.delete('/:id', (req, res) => {
   books = books.filter(b => b.id !== parseInt(req.params.id));
-  res.json({ message: "Book successfully deleted" });
+  res.json({ message: "Book deleted" });
 });
 
 module.exports = router;
