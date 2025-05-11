@@ -30,7 +30,7 @@ pipeline {
         stage('Run New Container') {
             steps {
                 script {
-                    sh 'docker run -d -p 8080:8080 --name book_inventry book_inventry'
+                    sh 'docker run -d -p 3000:3000 --name book_inventry book_inventry'
                 }
             }
         }
