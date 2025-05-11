@@ -9,7 +9,7 @@ let books = [
   { id: 5, title: "Atomic Habits", author: "James Clear", genre: "Self-Help", price: 22.00 },
   { id: 6, title: "The Pragmatic Programmer", author: "Andrew Hunt, David Thomas", genre: "Programming", price: 35.99 },
   { id: 7, title: "The Pragmatic One", author: "Andrew Hunt, David Thomas", genre: "Programming", price: 35.99 },
-  { id: 7, title: "Joshua - The Legend", author: "Joshua Johnson", genre: "Programming", price: 15000 },
+  { id: 7, title: "Joshua - The Legend", author: "Joshua Johnson", genre: "Programming", price: 666 },
 ];
 
 // Get all books (optionally filtered
